@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "name": "Nidhi",
+      "lastName": "dffd",
+      "email": "nidhi@gmail.com",
+      "department": "dfdf",
+      "address": "dsdfsdf",
+      "phone": 87348,
+      "description": "dsfdf",
+      "password": "343444",
+      "status": "active",
+      "id": 1
+    },
+    {
+      "name": "Nidhi",
+      "lastName": "dffd",
+      "email": "nidhi@gmail.com",
+      "department": "dfdf",
+      "address": "dsdfsdf",
+      "phone": 87348,
+      "description": "dsfdf",
+      "password": "343444",
+      "status": "active",
+      "id": 2
+    },
+    {
+      "name": "ridhi",
+      "lastName": "ridhi",
+      "email": "ridhi@gmail.com",
+      "department": "ridhi",
+      "address": "ridhi",
+      "phone": 3434354,
+      "description": "ridhi",
+      "password": "ridhi3",
+      "status": "ridhi",
+      "id": 3
+    },
+    {
+      "name": "Rohan",
+      "lastName": "Rohan",
+      "email": "Rohan@gmail.com",
+      "department": "Rohan",
+      "address": "Rohan",
+      "phone": 343875483,
+      "description": "Rohan",
+      "password": "Rohan6",
+      "status": "Rohan",
+      "id": 4
+    },
+    {
+      "name": "tripathi",
+      "lastName": "tripathi",
+      "email": "tripathi@gmail.com",
+      "department": "tripathi",
+      "address": "tripathi",
+      "phone": 342434343,
+      "description": "tripathi",
+      "password": "tripathi",
+      "status": "tripathi",
+      "id": 11
+    },
+    {
+      "name": "fish",
+      "lastName": "fish",
+      "email": "fish@gmail.com",
+      "department": "fish",
+      "address": "fish",
+      "phone": 3434336,
+      "description": "fish",
+      "password": "fishbhb",
+      "status": "fish",
+      "id": 13
+    }
+  ]
+}

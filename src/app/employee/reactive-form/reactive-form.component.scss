@@ -1,0 +1,56 @@
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+._formPage{
+
+    margin: auto;
+    border: 1px solid skyblue;
+    width: 940px
+}
+
+.form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+._fLine1{
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+._input{
+    width: 400px;
+    height: 32px;
+    border-radius: 2px;
+    border: 1px solid skyblue;
+}
+
+._inputField{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+
+    width: 846px;
+    height: 80px;
+    border-radius: 2px;
+    border: 1px solid skyblue;
+}
+
+._btn{
+
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+ 
+   position:relative;
+    left:738px
+}

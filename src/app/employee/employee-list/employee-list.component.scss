@@ -1,0 +1,47 @@
+._table{
+
+    width: 100%;
+    text-align: left;
+    border: 1px solid skyblue;
+   
+}
+
+th{
+    border: 1px solid skyblue;
+}
+
+td{
+    border: 1px solid skyblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:opx 28px 0px 28px;
+}
+
+._addEmployee{
+    height: 32px;
+}
+
+._search{
+    height: 28px; 
+}
+
+h1{
+    font-size: 20px;
+}
+
+._action{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}

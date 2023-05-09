@@ -1,0 +1,112 @@
+<p>reactive-form works!</p>
+
+<div class="_formPage">
+    <form [formGroup]="LoginForm" (ngSubmit)="LoginUser()" class="form">
+
+
+        <div class="_fLine1">
+            <div class="_inputField">
+                <label for="name">First Name</label>
+                <input type="text" placeholder=" Enter your name" name="name" formControlName="name" class="_input">
+                <br>
+                <span *ngIf="nameValidator && nameValidator.invalid && nameValidator.touched">name is invalid</span>
+            </div>
+
+            <div class="_inputField">
+                <label for="lastName">Last Name</label>
+                <input type="text" placeholder=" Enter your name" name="name" formControlName="lastName" class="_input">
+                <br>
+                <span *ngIf="lastNameValidator && lastNameValidator.invalid && lastNameValidator.touched">name is invalid</span>
+                <br>
+            </div>
+        </div>
+
+        <div class="_fLine1">
+            <div class="_inputField"> <label for="email">Email</label>
+                <input type="email" placeholder=" Enter your email" name="email" formControlName="email" class="_input">
+                <br>
+                <span *ngIf="emailValidator && emailValidator.invalid && emailValidator.touched">name is
+                    invalid</span><br>
+            </div>
+
+            <div class="_inputField"><label for="department">Department </label>
+                <input type="text" placeholder=" choose your department" name="department" formControlName="department"
+                    class="_input">
+                <br>
+                <span *ngIf="departmentValidator && departmentValidator.invalid && departmentValidator.touched">Department is
+                    required</span><br>
+            </div>
+        </div>
+
+        <div class="_fLine1">
+            <div class="_inputField">
+                <label for="text">Address</label>
+                <input type="text" placeholder=" Enter your password" name="address" formControlName="address"
+                    class="_input">
+                <br>
+                <span *ngIf="addressValidator && addressValidator.invalid && addressValidator.touched">Address is
+                    invalid</span> <br>
+            </div>
+
+            <div class="_inputField">
+                <label for="phone">Contact number</label>
+                <input type="number" placeholder=" Enter your contact number" name="phone" formControlName="phone"
+                    class="_input">
+                <br>
+                <span *ngIf="phoneValidator && phoneValidator.invalid && phoneValidator.touched">Contact Number is
+                    invalid</span> <br>
+            </div>
+        </div>
+
+
+        <div class="_inputField">
+            <label for="description">Description</label>
+            <input type="text" placeholder=" Enter your description" name="description" formControlName="description"
+                class="description">
+            <br>
+            <span *ngIf="descriptionValidator && descriptionValidator.invalid && descriptionValidator.touched">name is
+                invalid</span> <br>
+        </div>
+
+        <div class="_fLine1">
+            <div class="_inputField">
+                <label for="password">Password</label>
+                <input type="password" placeholder=" Enter your password" name="password" formControlName="password"
+                    class="_input">
+                <br>
+                <span *ngIf="passwordValidator && passwordValidator.invalid && passwordValidator.touched">password is
+                    required</span> <br>
+            </div>
+
+            <div class="_inputField">
+                <label for="password">Conform Password</label>
+                <input type="password" placeholder=" Enter your password" name="password" formControlName="password"
+                    class="_input">
+                <br>
+                <span *ngIf="passwordValidator && passwordValidator.invalid && passwordValidator.touched">Password is
+                    invalid</span> <br>
+            </div>
+
+
+           
+            
+        </div>
+
+        <div class="_inputField">
+            <label for="text">Status</label>
+            <input type="text" placeholder=" Enter your status" name="status" formControlName="status"
+                class="_input">
+            <br>
+            <span *ngIf="statusValidator && statusValidator.invalid && statusValidator.touched">Status is
+                required</span> <br>
+        </div>
+
+<div class="_btn">
+        <button [disabled]="LoginForm.invalid" >Cancel</button>
+        <button [disabled]="LoginForm.invalid" type="submit" routerLink="/employee-list">Submit</button>
+
+    </div>
+        
+    </form>
+
+</div>
